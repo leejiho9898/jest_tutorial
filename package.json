@@ -13,6 +13,12 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
